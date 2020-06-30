@@ -17,4 +17,5 @@ Langkah-langkahnya adalah:
 4. Route Home diatur oleh HomeController, sedangkan route Register dan Welcome diatur oleh AuthController.
 5. Alur program: dimulai dari halaman Home(route: '/') terdapat link menuju route register (route: '/register') . di halaman register terdapat form untuk mengisi nama depan, nama belakang, dan isian lainnya. Ketika disubmit di halaman register, form diarahkan ke halaman welcome ( route : '/welcome') dengan membawa data nama depan dan nama belakang yang akan ditampilkan di halaman welcome tersebut.
 Jika sudah berhasil, berikut output yang diinginkan:
+
 ![Preview](public/img/laravel-static.gif)
